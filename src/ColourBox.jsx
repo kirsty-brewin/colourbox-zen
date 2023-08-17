@@ -1,10 +1,16 @@
 import { useState } from 'react'
 import './App.css'
 
-function ColourBox() {
-  const [colour, setColour] = useState('yellow')
+function randomClick(arr) {
+  const index = Math.floor(Math.random() * arr.length)
+  return arr[index]
+}
+
+function ColourBox({ colours }) {
+  const [colour, setColour] = useState(randomClick(colours))
   const colourChange = () => {
-    setColour('orange')
+    const randomColour = randomClick(colours)
+    setColour(randomColour)
   }
   return (
     <div
