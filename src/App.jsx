@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import ColourBox from './ColourBox'
+import BoxGrid from './BoxGrid'
 import './App.css'
 
 const colours = [
@@ -15,7 +16,7 @@ const colours = [
 function App() {
   return (
     <>
-      <ColourBox colours={colours} />
+      <BoxGrid colours={colours} />
     </>
   )
 }
