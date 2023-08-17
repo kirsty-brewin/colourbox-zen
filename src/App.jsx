@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import ColourBox from './ColourBox'
 import BoxGrid from './BoxGrid'
-import './App.css'
+import './index.css'
 
 const colours = [
   '#eff0f3',
@@ -16,6 +16,8 @@ const colours = [
 function App() {
   return (
     <>
+      <h1>ColourBox Zen</h1>
+      <p>Click to change the colours and your mind.</p>
       <BoxGrid colours={colours} />
     </>
   )

@@ -1,5 +1,5 @@
 import ColourBox from './ColourBox'
-import './App.css'
+import './index.css'
 
 function BoxGrid({ colours }) {
   const boxes = []
