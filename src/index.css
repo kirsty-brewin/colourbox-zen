@@ -1,6 +1,6 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+  line-height: 3.5;
   font-weight: 400;
   color-scheme: light dark;
   color: #eff0f3;
@@ -37,11 +37,17 @@ body {
 
 h1 {
   font-size: 3.2em;
-  line-height: 1;
+  line-height: 0.5;
 }
 
 p {
   font-size: 1em;
+}
+
+p,
+h1 {
+  margin: 0px;
+  padding: 0px;
 }
 
 @media (prefers-color-scheme: light) {
@@ -51,8 +57,17 @@ p {
   }
 }
 
-@media only screen and (max-width: 640px) {
-  .container {
-    font-size: smaller;
+@media only screen and (max-width: 460px) {
+  h1 {
+    font-size: 2.2em;
+  }
+
+  p {
+    font-size: 0.6em;
+  }
+
+  .BoxGrid {
+    width: 300px;
+    height: 300px;
   }
 }

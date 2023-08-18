@@ -19,6 +19,7 @@ function App() {
       <h1>ColourBox Zen</h1>
       <p>Click to change the colours and your mind.</p>
       <BoxGrid colours={colours} />
+      <p>An app by Kirsty Brewin</p>
     </>
   )
 }
