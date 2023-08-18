@@ -1,8 +1,17 @@
-# React + Vite
+Welcome to ColourBox Zen!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I created this simple app to practise React State.
 
-Currently, two official plugins are available:
+Each box is clickable and creates a new random background colour.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To begin, I used Vite + React to create my development environment.
+
+I started by making a single box component and created a State to change it to a random colour.
+
+Then I created another component to make 100 boxes in a grid.
+
+I used CSS Flexbox to make it look pretty.
+
+Enjoy! :)
+Kirsty
+
